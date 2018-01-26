@@ -11,6 +11,7 @@
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
+           	android:theme="@android:style/Theme.Translucent"
             android:name="org.sharesmile.activities.ShareSmile" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
